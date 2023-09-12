@@ -1,0 +1,89 @@
+/* success.module.css */
+
+/* Container for the entire success page */
+.successContainer {
+    text-align: center;
+    padding: 60px;
+}
+
+/* Header for the success message */
+.successHeader {
+    font-size: 2.5rem;
+    color: #FFB800;
+    /* Honey gold color */
+    margin-bottom: 20px;
+}
+
+/* Success message */
+.successMessage {
+    font-size: 1.2rem;
+    color: #333;
+    margin-bottom: 40px;
+}
+
+/* Order summary section */
+.orderSummary {
+    border: 2px solid #FFB800;
+    padding: 20px;
+    margin-bottom: 40px;
+    background-color: #FFFCEC;
+    /* Pale yellow background */
+}
+
+/* Styling for the <h3> elements in the order summary */
+.orderSummary h3 {
+    margin: 10px 0;
+    /* Add some vertical spacing */
+    font-size: 1.2rem;
+    font-weight: bold;
+    /* Add font-weight to make the text more prominent */
+    color: #333;
+}
+
+/* Styling for specific elements within the order summary */
+.orderSummary h3.productName {
+    color: #FFB800;
+    /* Honey gold color for product names */
+    margin-bottom: 5px;
+}
+
+.orderSummary h3.quantity {
+    color: #888;
+    /* Light gray color for quantity */
+    font-weight: normal;
+    /* Reset font-weight for quantity */
+}
+
+.orderSummary h3.location {
+    color: #555;
+    /* Slightly darker gray color for location */
+    font-weight: normal;
+    /* Reset font-weight for location */
+}
+
+/* Back to shop button */
+.backToShopButton {
+    background-color: #FFB800;
+    color: white;
+    border: none;
+    padding: 10px 20px;
+    font-size: 1rem;
+    cursor: pointer;
+    transition: background-color 0.3s ease-in-out;
+}
+
+.backToShopButton:hover {
+    background-color: #FF9900;
+    /* Darker shade on hover */
+}
+
+/* Responsive adjustments */
+@media (max-width: 768px) {
+    .successContainer {
+        padding: 30px;
+    }
+
+    .successHeader {
+        font-size: 2rem;
+    }
+}

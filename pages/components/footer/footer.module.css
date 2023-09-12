@@ -1,0 +1,10 @@
+.footer {
+    padding-top: 20px;
+    text-align: center;
+    width: 100%;
+    visibility: hidden;
+}
+
+.footer p{
+    font-size: 12px;
+}

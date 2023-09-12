@@ -1,0 +1,120 @@
+.main {
+  display: flex;
+  flex-direction: column;
+  justify-content: space-between;
+  align-items: center;
+  padding: 6rem;
+  min-height: 100vh;
+}
+
+.img{
+  padding: 0px;
+  margin: 0px;
+}
+
+.parag {
+  letter-spacing: 2px;
+  text-align: center;
+  margin: 100px;
+  margin-top: 20px;
+}
+
+/* image slider part: */
+.imageSlider{
+  width: 80%;
+  height: 500px;
+  margin-top: 20px;
+  margin-bottom: 20px;
+}
+
+.imageStyle{
+  display: flex;
+  justify-content: center;
+  height: 500px;
+  z-index: 0;
+}
+
+/*
+  Case-Study
+*/
+
+.caseStudy{
+  text-align: center;
+}
+
+.steps{
+  display: flex;
+  justify-content: space-evenly;
+  width: 100%;
+}
+
+.step{
+  padding: 25px;
+  border-radius: 15px;
+  width: 27%;
+}
+
+.step img {
+  margin-bottom: 40px;
+}
+
+.step p{
+  font-size: 14px;
+}
+
+/* Mobile */
+@media (max-width: 700px) {
+
+  .imageSlider{
+    width: 100%;
+  }
+
+  .parag{
+    font-size: 20px;
+    margin: 30px;
+    margin-top: 0px;
+    letter-spacing: 0;
+  }
+
+  .step{
+    margin: 0px;
+    padding: 0px;
+  }
+
+  .step_h4{
+    font-size: 18px;
+  }
+
+  .img{
+    width: 100px;
+    height: 80px;
+  }
+}
+
+
+/* Tablet and Smaller Desktop */
+@media (min-width: 701px) and (max-width: 1120px) {
+  .grid {
+    grid-template-columns: repeat(2, 50%);
+  }
+
+}
+
+@media (prefers-color-scheme: dark) {
+  .vercelLogo {
+    filter: invert(1);
+  }
+
+  .logo {
+    filter: invert(1) drop-shadow(0 0 0.3rem #ffffff70);
+  }
+}
+
+@keyframes rotate {
+  from {
+    transform: rotate(360deg);
+  }
+  to {
+    transform: rotate(0deg);
+  }
+}

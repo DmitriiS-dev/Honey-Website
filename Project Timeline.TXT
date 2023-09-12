@@ -1,0 +1,5 @@
+Template Building: Idea was to have a website which allow the user to purchase honey which would then be delivered to their door.
+
+Client Consultation: The client doesn't want to add the delivery option on their website since its more time consuming..
+
+Current website: would allow the user to reserve a certain amount of honey and then be able to collect it.

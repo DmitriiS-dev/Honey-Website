@@ -1,0 +1,71 @@
+/* faq.module.css */
+
+/* Container for the FAQ page */
+.faqContainer {
+    max-width: 800px;
+    margin: 0 auto;
+    padding: 20px;
+}
+
+/* Individual FAQ item */
+.faqItem {
+    border: 1px solid #ccc;
+    border-radius: 5px;
+    margin-bottom: 20px;
+    padding: 15px;
+    background-color: #fff;
+    box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
+}
+
+/* Button to expand/collapse */
+.expandButton {
+    display: block;
+    width: 100%;
+    padding: 10px;
+    font-size: 1.2rem;
+    text-align: left;
+    background-color: #f7f7f7;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+    outline: none;
+    transition: background-color 0.3s ease-in-out;
+}
+
+.expandButton:hover {
+    background-color: #e6e6e6;
+}
+
+/* Expanded answer */
+.answer {
+    display: block;
+    margin-top: 10px;
+    padding: 10px;
+    font-size: 1rem;
+    background-color: #f7f7f7;
+    border: 1px solid #ccc;
+    border-radius: 5px;
+    box-shadow: 0 1px 2px rgba(0, 0, 0, 0.1);
+}
+
+
+/* Responsive design */
+@media (max-width: 700px) {
+    .faqContainer {
+        padding: 10px;
+    }
+
+    .faqItem {
+        padding: 10px;
+    }
+
+    .expandButton {
+        font-size: 1rem;
+        padding: 8px;
+    }
+
+    .answer {
+        padding: 10px;
+        font-size: 0.9rem;
+    }
+}

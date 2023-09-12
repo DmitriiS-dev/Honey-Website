@@ -1,0 +1,112 @@
+:root {
+  --primary-colour: #F6AE2D;
+  /* --secondary-colour: #2d73f6; */
+  --secondary-colour: #000;
+  --analogue-one: #f64b2d;
+  --analogue-two: #d8f62d;
+
+  --triadic-one: #73f62d;
+  --triadic-two: #2df6b0;
+
+  --white: #ffffff;
+  --black: #000000;
+
+  --border-radius: 12px;
+
+  --font-mono: ui-monospace, Menlo, Monaco, 'Cascadia Mono', 'Segoe UI Mono',
+    'Roboto Mono', 'Oxygen Mono', 'Ubuntu Monospace', 'Source Code Pro',
+    'Fira Mono', 'Droid Sans Mono', 'Courier New', monospace;
+
+  --foreground-rgb: 0, 0, 0;
+  --background-start-rgb: 214, 219, 220;
+  --background-end-rgb: 255, 255, 255;
+
+}
+
+* {
+  box-sizing: border-box;
+  padding: 0;
+  margin: 0;
+}
+
+html,
+body {
+  max-width: 100vw;
+  overflow-x: hidden;
+  background-color: var(--white);
+}
+
+h1{
+  text-align: center;
+  color: var(--secondary-colour);
+}
+
+h2{
+  font-size: 32px;
+}
+
+h3{
+  font-size: 26px;
+}
+h4{
+  font-size: 20px;
+}
+
+a {
+  color: inherit;
+  text-decoration: none;
+}
+
+p{
+  font-size: 28px;
+}
+
+
+/* Add to Cart Button */
+.button_style {
+  background-color: #f6ae2d;
+  border: 1px solid transparent;
+  border-radius: .75rem;
+  box-sizing: border-box;
+  color: #FFFFFF;
+  cursor: pointer;
+  flex: 0 0 auto;
+  font-family: "Inter var", ui-sans-serif, system-ui, -apple-system, system-ui, "Segoe UI", Roboto, "Helvetica Neue", Arial, "Noto Sans", sans-serif, "Apple Color Emoji", "Segoe UI Emoji", "Segoe UI Symbol", "Noto Color Emoji";
+  font-size: 1.125rem;
+  font-weight: 600;
+  line-height: 1.5rem;
+  padding: .75rem 1.2rem;
+  text-align: center;
+  text-decoration: none #6B7280 solid;
+  text-decoration-thickness: auto;
+  transition-duration: .2s;
+  transition-property: background-color, border-color, color, fill, stroke;
+  transition-timing-function: cubic-bezier(.4, 0, 0.2, 1);
+  user-select: none;
+  -webkit-user-select: none;
+  touch-action: manipulation;
+  width: 200px;
+}
+
+.button_style:hover {
+  background-color: #db8300;
+}
+
+.button_style:focus {
+  box-shadow: none;
+  outline: 2px solid transparent;
+  outline-offset: 2px;
+}
+
+.selector_btn {
+  display: flex;
+  align-items: center;
+  padding: 0 12px;
+  color: rgba(var(--text-color-rgb), .6);
+  height: 100%;
+  transition: color .2s ease-in-out;
+  touch-action: manipulation;
+  cursor: pointer;
+  margin-top: 20px;
+  margin-bottom: 20px;
+}
