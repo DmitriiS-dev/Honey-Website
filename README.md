@@ -6,6 +6,7 @@ Technologies Used: Next.js and SQL
 Skills Learnt:
 - Email verification using the nodemailer library
 - Making the website responsive
+- Adapting the website to the client's preferences
 
 ## Functionaly
 
