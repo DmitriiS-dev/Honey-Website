@@ -4,7 +4,7 @@ Website was created in order to boost the sales of my grandfather's honey busine
 Technologies Used: Next.js and SQL 
 
 Skills Learnt:
-- Email vefirication used nodemailer library
+- Email verification using the nodemailer library
 - Making the website responsive
 
 ## Functionaly
