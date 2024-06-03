@@ -1,6 +1,11 @@
 ## Purpose
 
 Website was created in order to boost the sales of my grandfather's honey business
+Technologies Used: Next.js and SQL 
+
+Skills Learnt:
+- Email vefirication used nodemailer library
+- Making the website responsive
 
 ## Functionaly
 
