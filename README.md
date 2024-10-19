@@ -10,7 +10,7 @@ Skills Learnt:
 
 ## Functionaly
 
-A user can reserve some honey after which the beekeeper will contact them regarding it.
+A user can reserve some honey after which the beekeeper will contact them it.
 
 Video:
 
